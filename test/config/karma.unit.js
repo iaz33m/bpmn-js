@@ -29,6 +29,7 @@ module.exports = function(karma) {
     ],
 
     files: [
+      'node_modules/babel-polyfill/dist/polyfill.js',
       suite
     ],
 
